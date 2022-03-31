@@ -1,13 +1,131 @@
 @charset "UTF-8";
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
+/*==========  section home ==========*/
+.home {
+  width: 100%;
+  position: relative; }
+  .home .slider-nav {
+    position: absolute;
+    left: 0;
+    bottom: 44px;
+    margin: 0; }
+
+.home-slider {
+  width: 100%;
+  position: relative;
+  color: #fff; }
+  .home-slider__bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: -1; }
+  .home-slider .slick-slide {
+    position: relative; }
+    .home-slider .slick-slide:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: calc(100% - 262px);
+      background: -webkit-gradient(linear, left top, right top, from(#266D45), color-stop(59.95%, rgba(38, 109, 69, 0)));
+      background: linear-gradient(90deg, #266D45 0%, rgba(38, 109, 69, 0) 59.95%);
+      z-index: 1; }
+
+.home-item {
+  position: relative;
+  z-index: 2;
+  margin: 190px 0 176px;
+  font-size: 18px;
+  line-height: 21px; }
+  .home-item .btn-group .btn-white {
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+    min-width: 255px; }
+  .home-item .box-text {
+    max-width: 697px;
+    margin: 0 0 46px; }
+
+.home-slider__title {
+  margin: 13px 0 32px;
+  font-size: 58px;
+  line-height: 67px;
+  font-weight: bold; }
+
+.home-slider__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .home-slider__nav .slick-dots {
+    margin: 0 33px; }
+  .home-slider__nav .slick-next {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+  .home-slider__nav .slick-prev {
+    margin: 0; }
+
+/*==========  section home end  ==========*/
 /*==========  section about ==========*/
+.about {
+  padding: 80px 0 109px;
+  background: #5FA17B url("../img/about-bg.png") no-repeat right bottom;
+    background-size: 991px; }
+  .about h2 {
+    margin: 0 0 30px; }
+
+.about-content {
+  margin: 0 0 43px; }
+  .about-content .box-text {
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 720px; }
+
+.tasks-content h2 {
+  margin: 0 0 70px; }
+
+.about-box {
+  color: #676767;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  padding: 53px 25px 77px 39px; }
+  .about-box__head {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 0 54px; }
+  .about-box h3 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700; }
+  .about-box__icon {
+    margin: 0 24px 0 0;
+    max-width: 73px;
+    width: 100%;
+    height: 80px;
+    min-width: 73px; }
+    .about-box__icon img {
+      max-height: 100%; }
+  .about-box__body {
+    line-height: 21px;
+    font-size: 18px;
+    max-width: 320px; }
+
 /*==========  section about end  ==========*/
 /*==========  section news ==========*/
 .news {
@@ -39,8 +157,8 @@
     .news-box__img img {
       width: 100%;
       height: 100%;
-      -o-object-fit: contain;
-         object-fit: contain; }
+      -o-object-fit: cover;
+         object-fit: cover; }
   .news-box__body {
     width: 100%;
     height: calc(100% - 398px);
@@ -157,7 +275,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: calc(100% - 300px);
-  padding: 0 0 0 33px; }
+  padding: 5px 0 0 33px; }
   .form-calculate label {
     max-width: 256px; }
   .form-calculate .form-group {

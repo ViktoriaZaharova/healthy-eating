@@ -24,4 +24,16 @@
         <path d="M2 9L1.29289 8.29289L0.585786 9L1.29289 9.70711L2 9ZM10.7071 16.2929L2.70711 8.29289L1.29289 9.70711L9.29289 17.7071L10.7071 16.2929ZM2.70711 9.70711L10.7071 1.70711L9.29289 0.292893L1.29289 8.29289L2.70711 9.70711Z"/>
     </symbol>
 
+    <symbol id="arrow-bottom" viewBox="0 0 16 10">
+        <path d="M2 2L8 8L14 2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="arrow-right" viewBox="0 0 10 16">
+        <path d="M2 14L8 8L2 2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="close" viewBox="0 0 22 22">
+        <path d="M3.12706 0.474609L0.474609 3.12706L8.54249 11.1949L0.474609 19.2628L3.12706 21.9153L11.1949 13.8474L19.2628 21.9153L21.9153 19.2628L13.8474 11.1949L21.9153 3.12706L19.2628 0.474609L11.1949 8.54249L3.12706 0.474609Z"/>
+    </symbol>
+
 </svg>
