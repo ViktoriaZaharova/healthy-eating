@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section about ==========*/
+/*==========  section about end  ==========*/
+/*==========  section news ==========*/
+.news {
+  margin: 97px 0 55px; }
+  .news h2 {
+    margin: 0 0 50px; }
+
+.news-box {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #C4C4C4;
+    border-radius: 20px;
+  overflow: hidden;
+  font-size: 18px; }
+  .news-box__img {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    width: 100%;
+    height: 398px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .news-box__img img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: contain;
+         object-fit: contain; }
+  .news-box__body {
+    width: 100%;
+    height: calc(100% - 398px);
+    padding: 30px 30px 57px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .news-box__name {
+    color: #676767;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto 42px; }
+    .news-box__name:hover {
+      color: #5FA17B; }
+  .news-box .date {
+    text-align: center;
+    margin: 0 auto 30px;
+    color: #13AF67; }
+  .news-box .btn {
+    margin: auto auto 0;
+    max-width: 255px;
+    width: 100%;
+    padding: 0 10px; }
+
+/*==========  section news end  ==========*/
+/*==========  section actual-quote ==========*/
+.actual-quote h2 {
+  margin: 0 0 37px; }
+
+.actual-quote-slider {
+  -webkit-box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  border-radius: 40px;
+  padding: 68px 70px 50px;
+  text-align: center; }
+
+.actual-quote-item {
+  width: 100%; }
+  .actual-quote-item .box-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    line-height: 41px;
+    font-size: 36px; }
+    .actual-quote-item .box-text:before, .actual-quote-item .box-text:after {
+      content: '';
+      font-size: 144px;
+      text-transform: uppercase;
+      line-height: 165px; }
+    .actual-quote-item .box-text:before {
+      margin: -60px 44px 0 0;
+      content: '«'; }
+    .actual-quote-item .box-text:after {
+      content: '»';
+      margin: -60px 0 0 44px; }
+
+.quote-author {
+  margin: 19px auto 0;
+  font-size: 24px;
+  font-weight: 300; }
+
+/*==========  section actual-quote end  ==========*/
+/*==========  section calculate ==========*/
+.calculate-section {
+  margin: 53px 0 120px; }
+
+.calculate-wrapper {
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+  border-radius: 40px;
+  background: #5FA17B;
+  padding: 42px 30px 46px 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.calculate-title {
+  max-width: 300px; }
+  .calculate-title h2 {
+    font-size: 36px;
+    line-height: 47px; }
+  .calculate-title .box-text {
+    margin: 11px 0 0;
+    font-size: 18px;
+    font-weight: 500; }
+
+.form-calculate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: calc(100% - 300px);
+  padding: 0 0 0 33px; }
+  .form-calculate label {
+    max-width: 256px; }
+  .form-calculate .form-group {
+    max-width: 201px; }
+    .form-calculate .form-group button {
+      padding: 0;
+      width: 100%; }
+
+.total-calculate {
+  margin: 25px 0 0;
+  font-size: 18px;
+  font-weight: 500; }
+
+/*==========  section calculate end  ==========*/

@@ -1,0 +1,85 @@
+/*==========  footer  ==========*/
+footer {
+  background: #F4F4F4;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 49px 0 43px;
+  font-size: 14px; }
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.logo-text {
+  margin: 0 0 0 15px; }
+
+.logo-icon {
+  max-width: 77px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.info-link {
+  margin: 0 28px 0 55px;
+  max-width: 255px; }
+
+.attention-text {
+  max-width: 550px;
+  font-weight: 300;
+  margin: 0 auto 0 0; }
+
+.organization-name {
+  max-width: 438px; }
+
+.counter {
+  margin: 0 0 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.info-text {
+  max-width: 545px; }
+
+.list-documents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 68px 0 61px;
+  font-weight: 300; }
+  .list-documents li {
+    margin: 0 35px 0 0; }
+    .list-documents li:last-child {
+      margin: 0; }
+    .list-documents li a {
+      color: #676767; }
+      .list-documents li a:hover {
+        color: #5FA17B; }
+
+.copyright {
+  font-weight: 300;
+  margin: 0 auto 0 73px; }
+
+/*==========  footer end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
