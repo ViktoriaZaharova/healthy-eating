@@ -8,7 +8,8 @@ header {
   padding: 23px 0; }
   header .logo {
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+    margin: 0 0 0 26px; }
     header .logo:before {
       content: '';
       position: absolute;
@@ -20,7 +21,11 @@ header {
       bottom: -26px;
       border-radius: 0 0 20px 20px; }
   header .btn {
-    padding: 0 27px; }
+    padding: 0 27px;
+    max-width: none;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; }
 
 .menu {
   display: -webkit-box;
@@ -168,6 +173,10 @@ header {
 .header {
   position: relative;
   margin: 0 0 17px; }
+  .header .logo {
+    margin-left: 0; }
+    .header .logo:before {
+      display: none; }
   .header .menu li a {
     color: #5FA17B; }
     .header .menu li a:hover {

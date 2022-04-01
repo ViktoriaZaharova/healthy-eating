@@ -1,0 +1,51 @@
+/*==========  section partners ==========*/
+.partners {
+  margin: 0 0 50px; }
+  .partners h2 {
+    margin: 0 0 64px; }
+
+.partners-box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid #C4C4C4;
+    border-radius: 20px;
+  padding: 42px 40px; }
+  .partners-box__icon {
+    max-width: 177px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .partners-box__body {
+    width: calc(100% - 177px);
+    padding: 0 0 0 64px; }
+  .partners-box__name {
+    text-transform: uppercase;
+    margin: 0 0 46px;
+    color: #676767;
+    font-size: 24px;
+    font-weight: bold; }
+    .partners-box__name:hover {
+      color: #5FA17B; }
+  .partners-box .btn {
+    max-width: 255px;
+    width: 100%;
+    font-size: 14px; }
+
+/*==========  section partners end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
