@@ -208,7 +208,36 @@
       width: calc(100% - 100px); }
     .partners-box__name {
       font-size: 20px;
-      margin: 0 0 20px; } }
+      margin: 0 0 20px; }
+  .partner-image {
+    margin: 30px 0 0;
+    height: auto; }
+  .partner-page {
+    margin: 0 0 60px; }
+  .project-page {
+    margin: 0 0 40px; }
+  .sidebar {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 280px;
+    background: #FFFFFF;
+    z-index: 3;
+    padding: 20px; }
+  .description-text {
+    margin: 0 0 30px; }
+  .menu-project {
+    font-size: 16px; }
+    .menu-project li {
+      margin: 0; }
+  .btn-close-sidebar {
+    display: block; }
+  .btn-sidebar {
+    margin: 0 0 30px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -271,7 +300,14 @@
   .contacts .name-company {
     margin: 0 0 24px; }
   .contacts .btn {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .partner-info {
+    margin: 0 0 30px; }
+  .partner-content .box-text {
+    font-size: 16px;
+    line-height: normal; }
+    .partner-content .box-text p {
+      margin: 0 0 20px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
@@ -361,7 +397,11 @@
   .mb-40 {
     margin-bottom: 30px; }
   .partners {
-    margin: 0 0 30px; } }
+    margin: 0 0 30px; }
+  .partner-name {
+    padding: 0 0 0 20px; }
+  .partner-links {
+    font-size: 18px; } }
 
 @media only screen and (max-width: 480px) {
   .actual-quote-item .box-text:before, .actual-quote-item .box-text:after {
@@ -377,7 +417,19 @@
   .partners-box__body {
     width: calc(100% - 80px); }
   .partners-box__name {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .partner-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .partner-name {
+    padding: 0;
+    margin: 20px 0 0;
+    width: 100%; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {

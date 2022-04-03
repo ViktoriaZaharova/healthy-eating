@@ -60,4 +60,59 @@
   .project-card .box-text {
     margin: 0 0 20px; }
 
-/*==========  section end  ==========*/
+/*==========  project end  ==========*/
+/*==========  project page ==========*/
+.project-page {
+  margin: 0 0 80px; }
+
+.sidebar {
+  width: 100%; }
+
+.btn-close-sidebar {
+  display: none;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin: 0 0 20px auto;
+  cursor: pointer; }
+  .btn-close-sidebar:before, .btn-close-sidebar:after {
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #5FA17B; }
+  .btn-close-sidebar:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  .btn-close-sidebar:after {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg); }
+
+.description-text {
+  margin: 0 0 120px;
+  color: #676767; }
+
+.menu-project {
+  width: 100%;
+  font-size: 18px; }
+  .menu-project li {
+    width: 100%;
+    margin: 0 0 10px; }
+    .menu-project li:last-child {
+      margin: 0; }
+    .menu-project li a {
+      padding: 13px 32px;
+      border-radius: 30px;
+      width: 100%;
+      color: #676767; }
+      .menu-project li a:hover {
+        background: #5FA17B;
+        color: #fff;
+        font-weight: bold; }
+      .menu-project li a.active {
+        background: #5FA17B;
+        color: #fff; }
+
+/*==========  project page end ==========*/

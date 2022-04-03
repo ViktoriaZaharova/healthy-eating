@@ -25,3 +25,12 @@ $('.btn-close').on('click', function (e) {
     $('.mobile-menu').fadeOut();
 });
 
+$('.btn-sidebar').on('click', function (e) {
+    e.preventDefault();
+    $('.sidebar').fadeToggle();
+});
+
+$('.btn-close-sidebar').on('click', function (e) {
+    e.preventDefault();
+    $('.sidebar').fadeOut();
+});
