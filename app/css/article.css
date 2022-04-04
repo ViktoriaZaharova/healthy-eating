@@ -1,0 +1,46 @@
+/*==========  section article  ==========*/
+.article {
+  margin: 0 0 30px; }
+  .article .mission-img {
+    height: 469px;
+    border-radius: 10px; }
+  .article .box-text {
+    margin: 0 0 60px; }
+    .article .box-text p {
+      margin: 0 0 35px; }
+      .article .box-text p:last-child {
+        margin: 0; }
+  .article h1 {
+    margin: 0 0 60px; }
+
+.article-image {
+  width: 100%;
+  height: 690px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  margin: 110px 0; }
+  .article-image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.link-web {
+  color: #676767; }
+  .link-web:hover {
+    color: #5FA17B; }
+
+.recommended-article {
+  margin: 0 0 110px; }
+  .recommended-article h2 {
+    margin: 0 0 60px; }
+
+/*==========  section article end  ==========*/

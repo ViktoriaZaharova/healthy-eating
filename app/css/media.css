@@ -75,7 +75,19 @@
     line-height: normal; }
   .menu {
     font-size: 18px;
-    margin: 0 30px 0 auto; } }
+    margin: 0 30px 0 auto; }
+  .command {
+    margin: 0 0 50px; }
+  .command-box {
+    padding: 20px; }
+    .command-box__img {
+      width: 170px;
+      height: 170px; }
+    .command-box__body {
+      width: calc(100% - 170px);
+      padding: 0 0 0 20px; }
+  .command-section {
+    margin: 0 0 60px; } }
 
 @media only screen and (max-width: 1240px) {
   .info-link {
@@ -174,7 +186,36 @@
   .partners-box {
     padding: 30px; }
     .partners-box__body {
-      padding: 0 0 0 20px; } }
+      padding: 0 0 0 20px; }
+  .command-box__img {
+    width: 80px;
+    height: 80px; }
+  .command-box__body {
+    width: calc(100% - 80px); }
+  .command-box h4 {
+    margin: 0 0 10px; }
+  .command-box .links {
+    margin: 10px 0 0; }
+  .command-box-max {
+    padding: 30px; }
+    .command-box-max .command-box__img {
+      width: 150px;
+      height: 150px; }
+    .command-box-max .command-box__body {
+      padding: 0 0 0 20px;
+      width: calc(100% - 150px); }
+  .article h1 {
+    margin: 0 0 30px; }
+  .article .box-text {
+    margin: 0 0 30px; }
+    .article .box-text p {
+      margin: 0 0 20px; }
+  .article-image {
+    margin: 60px 0; }
+  .recommended-article {
+    margin: 0 0 80px; }
+    .recommended-article h2 {
+      margin: 0 0 30px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -237,7 +278,53 @@
   .btn-close-sidebar {
     display: block; }
   .btn-sidebar {
-    margin: 0 0 30px; } }
+    margin: 0 0 30px; }
+  .command .mission-img {
+    height: auto; }
+  .command-section {
+    margin: 0 0 30px; }
+  #userModal .modal-content {
+    padding: 30px; }
+  #userModal .modal-title {
+    margin: 0 0 20px; }
+  #userModal .modal-header .close {
+    top: 20px;
+    right: 20px; }
+  .command-box-modal .command-box__img {
+    width: 200px;
+    height: 200px; }
+  .command-box-modal .command-box__body {
+    width: calc(100% - 200px);
+    padding: 0 0 0 30px; }
+  .command-box-modal .command-box__info {
+    font-size: 18px;
+    margin: 0 0 20px;
+    line-height: normal; }
+  .command-box-modal .box-text {
+    font-size: 16px; }
+  .command-box-max {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .command-box-max .command-box__body {
+      width: 100%;
+      padding: 0;
+      margin: 20px 0 0; }
+    .command-box-max .command-box__img {
+      margin: 0 auto; }
+    .command-box-max .command-box__info, .command-box-max h4 {
+      text-align: center; }
+  .article .mission-img {
+    margin: 0 0 20px 0;
+    height: auto; }
+  .article-image {
+    margin: 30px 0; }
+  .recommended-article {
+    margin: 0 0 50px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -307,7 +394,19 @@
     font-size: 16px;
     line-height: normal; }
     .partner-content .box-text p {
-      margin: 0 0 20px; } }
+      margin: 0 0 20px; }
+  .mb-35 {
+    margin-bottom: 25px; }
+  .command-box-modal {
+    padding: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .command-box-modal .command-box__body {
+      padding: 0;
+      width: 100%;
+      margin: 20px 0 0; }
+    .command-box-modal .command-box__img {
+      margin: 0 auto; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
@@ -401,7 +500,13 @@
   .partner-name {
     padding: 0 0 0 20px; }
   .partner-links {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .article-image {
+    height: auto; }
+  .breadcrumb {
+    font-size: 14px; }
+  .link-web {
+    font-size: 14px; } }
 
 @media only screen and (max-width: 480px) {
   .actual-quote-item .box-text:before, .actual-quote-item .box-text:after {
@@ -429,8 +534,6 @@
   .partner-name {
     padding: 0;
     margin: 20px 0 0;
-    width: 100%; } }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /**/ }
+    width: 100%; }
+  .link-web {
+    font-size: 12px; } }

@@ -58,7 +58,10 @@ a {
   text-decoration: none;
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  outline: none; }
+  outline: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; }
   a:hover, a:focus {
     text-decoration: none; }
 
@@ -232,6 +235,9 @@ a.color-accent:hover {
 
 .mb-30 {
   margin-bottom: 30px; }
+
+.mb-35 {
+  margin-bottom: 35px; }
 
 .mb-40 {
   margin-bottom: 40px; }
