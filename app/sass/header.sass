@@ -67,6 +67,19 @@ header
   border: none
     radius: 10px
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15)
+  li
+    width: 100%
+    margin: 0
+    position: relative
+    a
+      color: $grey
+  .dropdown-submenu
+    top: 0
+    left: 100%
+    border-radius: 0
+    max-width: 250px
+    .dropdown-item
+      white-space: normal
 
 .dropdown-item
   padding: 10px 24px 10px 17px
@@ -80,6 +93,7 @@ header
   &:hover
     background: transparent
     color: $accent
+
 
 .btn-burger
   width: 30px
@@ -142,6 +156,8 @@ header
   .logo-text
     margin: 0
     max-width: none
+  .dropdown-submenu
+    padding-left: 10px
 
 .btn-close
   position: absolute
