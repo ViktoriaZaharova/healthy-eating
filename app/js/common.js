@@ -35,3 +35,4 @@ $('.btn-close-sidebar').on('click', function (e) {
     $('.sidebar').fadeOut();
 });
 
+new WOW().init();
